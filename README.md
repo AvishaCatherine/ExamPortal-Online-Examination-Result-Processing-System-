@@ -59,7 +59,7 @@ ExamPortal provides a secure and automated platform that:
 
 --- 
 
-## ER Diagram  
+## ER Diagram 
 
 ![ER Diagram](er_diagram.png)
 
