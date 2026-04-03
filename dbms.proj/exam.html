@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div id="timer">60</div>
+  <div id="progress">0/2</div>
+</div>
+
+<video id="cam" autoplay muted></video>
+<div class="rec">● REC</div>
+
+<form id="form">
+
+<p>1. DBMS stands for?</p>
+<label><input type="radio" name="q1" value="a"> Database Management System</label>
+<label><input type="radio" name="q1" value="b"> Backup System</label>
+
+<p>2. SQL is?</p>
+<label><input type="radio" name="q2" value="a"> Query Language</label>
+<label><input type="radio" name="q2" value="b"> Programming Language</label>
+
+<button type="button" onclick="submitExam()">Submit</button>
+</form>
+
+<div id="warningBox" class="hidden">
+  <div class="warning-content">
+    <h2 id="warnText"></h2>
+    <div id="dots"></div>
+    <button onclick="resumeExam()">Resume Exam</button>
+  </div>
+</div>
+
+<div id="barred" class="hidden">
+  <h1>🚫 YOU ARE BARRED 🚫</h1>
+</div>
+
+<script src="exam.js"></script>
+<script src="proctor.js"></script>
+</body>
+</html>

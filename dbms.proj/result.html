@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+<h2>Result</h2>
+<h1 id="score"></h1>
+<h3 id="status"></h3>
+
+<canvas id="chart" width="200" height="200"></canvas>
+
+<a href="review.html">
+<button>Review Answers</button>
+</a>
+</div>
+
+<script>
+let score = localStorage.getItem("score") || 0;
+let percent = (score/2)*100;
+
+document.getElementById("score").innerText = score + "/2";
+document.getElementById("status").innerText =
+percent >= 50 ? "PASS ✅" : "FAIL ❌";
+
+let ctx = document.getElementById("chart").getContext("2d");
+ctx.fillRect(50, 200-score*50, 50, score*50);
+</script>
+
+</body>
+</html>
