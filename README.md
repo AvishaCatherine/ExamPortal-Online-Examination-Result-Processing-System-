@@ -10,7 +10,7 @@ ExamPortal is a full-stack database-driven web application designed to conduct s
 ![CSS](https://img.shields.io/badge/CSS-3-blue?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript&logoColor=black)
 ![Status](https://img.shields.io/badge/status-complete-success)
-![License](https://img.shields.io/badge/license-academic-lightgrey)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 ---
 
@@ -128,6 +128,7 @@ Proctoring System
 ---
 
 ## Project Structure  
+
 
 examportal/
 ├── database/
