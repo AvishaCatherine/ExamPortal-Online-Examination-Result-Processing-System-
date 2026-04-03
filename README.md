@@ -57,7 +57,7 @@ ExamPortal provides a secure and automated platform that:
 | Audit Logs | Tracks all violations |
 
 
----
+--- 
 
 ## ER Diagram  
 
